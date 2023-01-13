@@ -1,6 +1,39 @@
 /* Your code here */
+.pf {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px 200px;
+}
 
+body {
+  zoom: 0.7;
+}
 
+.wgs {
+  position: relative;
+  width: 213px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.wgs_mole-head {
+  position: absolute;
+  width: 125px;
+  height: 118px;
+  left: 36px;
+  transition: margin-top 0.25s;
+}
+
+.wgs_mole-hill {
+  position: absolute;
+  width: 213px;
+  height: 73px;
+  bottom: 0px;
+}
+
+.wgs_mole-head-hidden {
+  margin-top: 160px;
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
